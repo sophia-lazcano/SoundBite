@@ -41,3 +41,15 @@ Boys Do Fine, Always", and more. Use whatever helps you best. Another great char
 hold the note F (on the line) in between them. Even though the staff is limited to 9 notes within, notes can actually extend past the bottom or the top of
 the clef, given that you follow the same rules of jumping from line to space to line to space (etc.) in alphabetical order from A-G (never H or beyond!).
 These notes usually rest on extra line segments called ledger lines.
+
+
+
+// Types of Notes and Rests
+
+Notes and rests are the individual parts that create a piece of music through sound and silence in rhythm, respectively. The most basic types of notes and
+rests begin with a value of 4 and progress to each step by dividing in half the value. The table shown displays the most common types of notes, from whole,
+half, quarter, eighth, sixteenth, and thirty-second notes and rests. After that, the symbols progress more or less the same, adding a flag for each
+progressed level (for example, a 64th note/rest has 4 flags). Each staff line is split up into segments called measures, which contain an equal amount of
+beats per segment until stated otherwise (in the intermediate concept of time signature changes). However, for now, let's focus on the nice, round number
+of a common time signature, which is 4/4 (read as "four four"), or also denoted as "C" for common time. This means that the measure gets 4 beats (indicated
+in the numerator), where every beat is given to a quarter (1/4) note (indicated in the denominator).
