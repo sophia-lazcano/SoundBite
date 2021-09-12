@@ -11,7 +11,7 @@
     <img src="beat_barrage_hd.png" style="width:35%; margin-left:628px; margin-top:20px">
     <br><br><br><br>
 
-    <img src="nothing.jpg" id="beat" style="width:8%; margin-top:0px; margin-left:800px">
+    <img src="nothing.jpg" id="beat" style="width:9%; margin-top:0px; margin-left:895px">
 
 </div>
 <div>  
@@ -28,6 +28,8 @@
         if(ans===beatN[beat.indexOf(optionB)])
             //document.getElementById("status").innerHTML = <p style="font-size:40px; margin-left:400px">CORRECT</p>
             document.getElementById("status").innerHTML = "<span style='font-size:40px';padding-left:300px; <center><b>CORRECT</center></b>"
+        else
+            document.getElementById("status").innerHTML = "<span style='font-size:40px';padding-left:300px; <center><b>INCORRECT</center></b>"
 
     }
     function handleAnswer()
