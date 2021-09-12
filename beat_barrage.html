@@ -11,11 +11,8 @@
     <img src="beat_barrage_hd.png" style="width:35%; margin-left:628px; margin-top:20px">
     <br><br><br><br>
 
-    <!--p style="font-size:90px; font-family:helvetica; margin-top:0px; margin-left:160px; margin-right:160px; text-align:center">Guess the Note</p-->
-    <!--img src=(id="note") style="width:8%; margin-top:0px; margin-left:800px"-->
-    <img src="nothing.jpg" id="note" style="width:8%; margin-top:0px; margin-left:800px">
-    <!--p id="ans"></p-->
-    <!--p id="note"></p-->
+    <img src="nothing.jpg" id="beat" style="width:8%; margin-top:0px; margin-left:800px">
+
 </div>
 <div>  
     <label for="fname" style="font-size:40px; margin-left:550px; margin-top:100px">Note (in capital letters, sharps are # and flats are b):</label>
@@ -28,11 +25,11 @@
     function getInputValue()
     {
         var ans = document.getElementById("fname").value;
-        if(ans===noteL[note.indexOf(option)])
+        alert(beatN[beat.indexOf(optionB)])
+        if(ans===beatN[beat.indexOf(optionB)])
             //document.getElementById("status").innerHTML = <p style="font-size:40px; margin-left:400px">CORRECT</p>
             document.getElementById("status").innerHTML = "<span style='font-size:40px';padding-left:300px; <center><b>CORRECT</center></b>"
-        //else
-            //alert(noteL[note.indexOf(option)])
+
     }
     function handleAnswer()
     {
@@ -43,6 +40,6 @@
     <br><br><br><br>
     <p style="font-size:30px; margin-top:175px; margin-left:140px; margin-right:144px; text-align:center">Officially Unofficial SoundBite™</p>
 </div>
-<script src="scripts.js"/>
+<script src="scripts.js"></script>
 
 </body>
