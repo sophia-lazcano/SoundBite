@@ -53,3 +53,11 @@ progressed level (for example, a 64th note/rest has 4 flags). Each staff line is
 beats per segment until stated otherwise (in the intermediate concept of time signature changes). However, for now, let's focus on the nice, round number
 of a common time signature, which is 4/4 (read as "four four"), or also denoted as "C" for common time. This means that the measure gets 4 beats (indicated
 in the numerator), where every beat is given to a quarter (1/4) note (indicated in the denominator).
+
+
+
+// Pitch
+
+Pitch is best described as the frequency of a note that is on an audible spectrum from the lowest to the highest pitches. Everytime you hear a single note's
+tone, you are hearing the note's pitch! A blend of pitches makes a song, where we have described them as musical notes. Believe it or not, some people can
+actually tell what note is being played based on the pitch they hear alone. Study the notes' pitches and play the game below to see if you have perfect pitch!
